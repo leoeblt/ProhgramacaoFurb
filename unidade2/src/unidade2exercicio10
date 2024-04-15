@@ -1,0 +1,13 @@
+E: valor em segundos
+S: resultado em horas, minutos e segundos 
+
+inteiro A, B, C, D 
+leia(A);
+leia(B);
+leia(C);
+leia(D);
+transformar (valor em segundos para horas, minutos e segundos);
+1 hora = 60 minutos;
+1 minuto = 60 segundos;
+valor em segundos / 60;
+escreva(converter valor em segundos para horas, minutos e segundos);

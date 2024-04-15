@@ -1,0 +1,9 @@
+E: dois valores inteiros A e B
+S: resultado da multiplicação entre eles
+
+inteiros A, B, multiplicação
+
+leia(A);
+leia(B);
+multiplicação (A * B);
+escreva(multiplicação);

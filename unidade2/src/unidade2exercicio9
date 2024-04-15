@@ -1,0 +1,10 @@
+E: valor em dolar
+S: total reais 
+
+real A 
+cotação do dolar: 4,97 a cada 1 real
+
+leia(A);
+leia(Cotação do dolar);
+multiplicação (A * 4,97);
+escreva (resultado da multiplicação);
