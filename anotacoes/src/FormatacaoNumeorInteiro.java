@@ -1,4 +1,3 @@
-package SRC;
 
 public class FormatacaoNumeorInteiro {
     public static void main (String [] args) {

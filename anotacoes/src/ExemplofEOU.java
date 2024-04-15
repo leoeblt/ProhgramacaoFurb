@@ -1,4 +1,3 @@
-package SRC;
 
 public class ExemplofEOU {
     public static void main(String []args) {

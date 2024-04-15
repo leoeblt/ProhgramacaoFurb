@@ -1,4 +1,3 @@
-package SRC;
 
 public class variaveis {public static void main(String[] args) {
     // Tipos Primitivos - 8

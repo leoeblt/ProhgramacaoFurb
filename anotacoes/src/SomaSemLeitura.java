@@ -1,4 +1,3 @@
-package SRC;
 
 public class SomaSemLeitura {
     public static void main(String [] args) {

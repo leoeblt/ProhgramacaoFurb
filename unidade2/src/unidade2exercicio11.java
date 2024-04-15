@@ -1,4 +1,3 @@
-package exercicioalgoritmosuni2;
 
 import java.util.Scanner;
 public class unidade2exercicio11 {
