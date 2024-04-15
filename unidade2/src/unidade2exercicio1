@@ -1,9 +1,0 @@
-E: valores inteiros A e B
-S: soma
-
-inteiro A, B, soma
-
-leia(A);
-leia(B);
-soma (A + B);
-escreva(soma);
