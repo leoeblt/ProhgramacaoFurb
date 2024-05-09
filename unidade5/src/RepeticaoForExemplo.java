@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class RepeticaoForExemplo {
 
     public static void main(String[] args) {
-        //for(int i = 0; i <= 20; i +=2) {
-        //    System.out.println(i);
-        //}
-        //for(int i = 0; i <= 50; i +=5) {
-        //  System.out.println(i);
-        //}
-        //for(int i = 10; i <= 0; i--) {
-        //    System.out.println(i);
-        //}
+        // for(int i = 0; i <= 20; i +=2) {
+        //     System.out.println(i);
+        // }
+        // for(int i = 0; i <= 50; i +=5) {
+        //   System.out.println(i);
+        // }
+        // for(int i = 10; i <= 0; i--) {
+        //     System.out.println(i);
+        // }
 
         //tabuda de qualquer numero:
 

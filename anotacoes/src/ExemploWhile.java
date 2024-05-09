@@ -11,7 +11,6 @@ public class ExemploWhile {
             System.out.println("boa noite " + nome);
             System.out.print("Informe nome " + contador + "(fim termina)...: ");
             nome = teclado.next();
-            System.out.println();
         }
         System.out.println("FIM");
         
