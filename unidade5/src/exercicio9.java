@@ -24,7 +24,8 @@ public class exercicio9 {
                 contadorAlunosAcima20anos++;
             }
         }
-        System.out.println("Alunos com 18 anos: ", );
+        System.out.println("Alunos com 18 anos: " + nomes18anos);
+        System.out.println("Total de alunos com + 20 anos: " + contadorAlunosAcima20anos);
 
     }
 
