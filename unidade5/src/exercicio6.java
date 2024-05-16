@@ -7,19 +7,17 @@ public class exercicio6 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         
-        int quantidadePessoas = 3;
+        double soma = 0;
         
-        double somaAlturas = 0.0;
-        
-        for (int i = 1; i <= quantidadePessoas; i++) {
+        for (int i = 1; i <= 3; i++) {
             System.out.print("Digite a altura da pessoa " + i + " (em metros): ");
             double altura = teclado.nextDouble();
-            somaAlturas += altura;
+            soma += altura;
         }
         
-        double mediaAlturas = somaAlturas / quantidadePessoas;
+        double media = soma / 3;
         
-        System.out.println("A média das alturas das " + quantidadePessoas + " pessoas é: " + mediaAlturas + " metros.");
+        System.out.printf("A média das altura é: %.2f", media);
         
         teclado.close();
 
