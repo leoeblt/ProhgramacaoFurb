@@ -36,7 +36,7 @@ public class ExemploVetor {
         //CRIE UM VETOR DE 50 POSIÇÕES, PREENCHA COM NÚMEROS ALEATÓRIOS    
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(Math.random() * 3);
+            System.out.println((int) (Math.random() * 10));
         }
 
     }
