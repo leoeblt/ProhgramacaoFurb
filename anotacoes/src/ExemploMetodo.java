@@ -4,12 +4,18 @@ public class ExemploMetodo {
         mostraMenu("Principal");
         System.out.println(soma (2, 6));
         System.out.println(soma (10, 30));
-        int r = soma (soma (10, 20), 5);
+        int a = 100;
+        int r = soma (soma (a, 20), 5);
         System.out.println(r);
+        double loucura = soma(10.0, 90);
     }
 
     private int soma(int n1, int n2) {
         return n1 + n2; 
+    }
+
+    private double soma(double n1, double n2) {
+        return n1 + n2;
     }
     
     private static void mostraMenu(String titulo) {
