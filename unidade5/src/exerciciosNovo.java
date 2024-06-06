@@ -76,22 +76,22 @@ public class exerciciosNovo {
 
     // 6- Descreva um algoritmo que leia a altura de 20 pessoas e calcule a média de altura das mesmas.
 
-    public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-        double somaAlturas = 0.0;
+    // public static void main(String[] args) {
+    //     Scanner teclado = new Scanner(System.in);
+    //     double somaAlturas = 0.0;
 
-        for (int i = 1; i <= 4; i++) {
-            System.out.println("Informe a altura das pessoas");
-            double altura = teclado.nextDouble();
-            somaAlturas += altura;
-        }
+    //     for (int i = 1; i <= 4; i++) {
+    //         System.out.println("Informe a altura das pessoas");
+    //         double altura = teclado.nextDouble();
+    //         somaAlturas += altura;
+    //     }
 
-        double mediaAlturas = somaAlturas / 4;
+    //     double mediaAlturas = somaAlturas / 4;
 
-        System.out.printf("A média das alturas das pessoas é: %f", mediaAlturas);
+    //     System.out.printf("A média das alturas das pessoas é: %f", mediaAlturas);
 
-        teclado.close();
+    //     teclado.close();
 
-    }
+    // }
 
 }
