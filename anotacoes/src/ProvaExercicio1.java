@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class ProvaExercicio {
-    private ProvaExercicio() {
+public class ProvaExercicio1 {
+    private ProvaExercicio1() {
         Scanner teclado = new Scanner(System.in);
         String[] quantidadeMochila = new String[5];
         int[] pesos = new int[5];
@@ -138,6 +138,6 @@ public class ProvaExercicio {
     }
 
     public static void main(String[] args) {
-        new ProvaExercicio();
+        new ProvaExercicio1();
     }
 }
