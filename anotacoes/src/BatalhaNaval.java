@@ -114,18 +114,18 @@ public class BatalhaNaval {
     }
 
 // Método jogar
-    private void iniciarJogo(Scanner sc, char[][] tabuleiro, int[][] navios) {
+    private void iniciarJogo(Scanner sc, char[][] tabuleiro, int[][] navios) { // criamos um metodo "iniciarJogo" e dentro dele...
 
         int maxJogadas = 30; // Número máximo de jogadas
         int qtdNavios = navios.length; // Navios restantes
         int contadorErro = 0;
         int contadorAcerto = 0;
 
-        while (qtdNavios > 0 && maxJogadas > 0) {
+        while (qtdNavios > 0 && maxJogadas > 0) { // o while está aqui praq enquanto a qtdNavios e maxJogadas for maior que zero o jogo...
             int coluna = 0;
             int linha = 0;
 
-            do {
+            do {  // feito para que quando erre a coordenada não mostre os navios logo de cara
                 System.out.printf("\n\nJogadas restantes: %d", maxJogadas);
                 mostrarTabuleiro(tabuleiro, false); // Exibe o tabuleiro sem mostrar os navios
 
@@ -137,7 +137,7 @@ public class BatalhaNaval {
                     System.out.println("\n!!! Valor(es) inválido(s) !!!");
                 }
 
-            } while (linha > 7 || linha < 0 || coluna > 7 || coluna < 0);
+            } while (linha > 7 || linha < 0 || coluna > 7 || coluna < 0);  //  caso o jagodor mencione um numero invalido, continuar repetindo
 
             switch (tabuleiro[linha][coluna]) {
                 case '~':
