@@ -125,7 +125,7 @@ public class BatalhaNaval {
             int coluna = 0;
             int linha = 0;
 
-            do {  // feito para que quando erre a coordenada não mostre os navios logo de cara
+            do {  // feito para que quando voce coloque um valor inválido ele repita o tabuleiro
                 System.out.printf("\n\nJogadas restantes: %d", maxJogadas);
                 mostrarTabuleiro(tabuleiro, false); // Exibe o tabuleiro sem mostrar os navios
 
